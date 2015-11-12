@@ -94,7 +94,7 @@ function submit1(rType) {
 }
 
 function getCommonFields() {
-document.getElementById('response').innerText = "";
+document.getElementById('response').innerHTML = "";
 var str = '';
 str += '<div class="form-group">';
     str += '<input class="form-control" placeholder="Cloud User Name" id="userName" name="userName" type="text" required autofocus>';
